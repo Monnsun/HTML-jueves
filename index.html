@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ejercicios HTML - Etiquetas</title>
+</head>
+<body>
+<h2>Ejercicios HTML: reconociendo las etiquetas</h2>
+
+<hr>
+<h3><img></h3>
+<p>Inserta una imagen con ancho y alto definidos.</p>
+<img src="Paisaje.jpg" alt="Paisaje" width="300" height="320">
+
+<hr>
+<h3><a></h3>
+<p>Crea un hipervínculo hacia otra página o recurso.</p>
+<a href="https://www.sena.edu.co" target="_blank">Ir al SENA</a>
+
+<hr>
+<h3><h1></h3>
+<p>Define el encabezado de mayor jerarquía (h1 a h6).</p>
+<h1 id="titulo">Bienvenidos</h1>
+
+<hr>
+<h3><p></h3>
+<p>Define un párrafo de texto.</p>
+<p class="texto">Texto de un párrafo.</p>
+
+<hr>
+<h3><div></h3>
+<p>Contenedor genérico para agrupar y dar estilo a bloques.</p>
+<div id="contenedor" class="caja">Contenido</div>
+
+<hr>
+<h3><span></h3>
+<p>Contenedor en línea para dar formato a un fragmento de texto.</p>
+<span style="color:red">Texto en rojo</span>
+
+<hr>
+<h3><ul></h3>
+<p>Crea una lista desordenada con viñetas.</p>
+<ul class="lista"><li>Café</li><li>Té</li></ul>
+
+<hr>
+<h3><ol></h3>
+<p>Crea una lista ordenada (numerada o con letras).</p>
+<ol type="A" start="3"><li>Uno</li><li>Dos</li></ol>
+
+<hr>
+<h3><table></h3>
+<p>Crea una tabla con filas (tr), encabezados (th) y celdas (td).</p>
+<table border="1"><tr><th>Nombre</th></tr><tr><td>Ana</td></tr></table>
+
+<hr>
+<h3><form></h3>
+<p>Contenedor de campos para enviar datos al servidor.</p>
+<form action="procesar.php" method="post">
+  <label for="correo">Correo:</label>
+  <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com" required>
+  <textarea name="mensaje" rows="4" cols="30"></textarea>
+  <button type="submit">Enviar</button>
+</form>
+
+<hr>
+<h3><input></h3>
+<p>Campo de entrada de datos (texto, correo, número, etc.).</p>
+<!-- Ver ejemplo dentro del formulario -->
+<form><input type="email" name="correo" placeholder="correo@ejemplo.com" required></form>
+
+<hr>
+<h3><label></h3>
+<p>Texto descriptivo asociado a un campo de formulario.</p>
+<!-- Ver ejemplo dentro del formulario -->
+<form><label for="correo">Correo:</label></form>
+
+<hr>
+<h3><button></h3>
+<p>Crea un botón, por ejemplo para enviar
