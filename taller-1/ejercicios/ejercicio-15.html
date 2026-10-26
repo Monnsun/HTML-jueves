@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Oscar Duvan Rojas Rico y Santiago Diaz Palma">
+    <meta name="description" content="Pagina de practica sobre el uso de metadatos en el head de un documento HTML.">
+    <meta name="keywords" content="HTML, metadatos, meta, SENA, aprendiz, ADSO">
+    <title>Metadatos del documento</title>
+</head>
+
+<body>
+
+    <h2>Metadatos del documento</h2>
+
+    <p>
+        En este ejercicio practicamos el uso de la etiqueta <strong>&lt;title&gt;</strong> y de
+        varias etiquetas <strong>&lt;meta&gt;</strong> dentro del <strong>&lt;head&gt;</strong>.
+        Estas etiquetas no se ven en la pagina, pero son muy importantes porque le dan informacion
+        al navegador y a los buscadores sobre el contenido del documento.
+    </p>
+
+    <h3>Metadatos que agregamos</h3>
+    <ul>
+        <li><strong>Autor:</strong> dice quien hizo la pagina.</li>
+        <li><strong>Descripción:</strong> es un resumen corto del contenido de la pagina.</li>
+        <li><strong>Palabras clave:</strong> son palabras que ayudan a los buscadores a entender de que trata la pagina.</li>
+    </ul>
+
+    <h3>¿Para que sirve charset="UTF-8"?</h3>
+
+    <p>
+        El atributo <strong>charset="UTF-8"</strong> le dice al navegador que use el sistema de
+        codificacion UTF-8 para mostrar el texto. Esto es importante porque UTF-8 soporta las
+        tildes, la letra ñ y los simbolos especiales del español. Si no se usa, en la pagina
+        pueden salir simbolos raros donde deberian ir las tildes.
+    </p>
+
+    <h3>¿Para que sirve viewport?</h3>
+
+    <p>
+        El meta <em>viewport</em> le dice al navegador como mostrar la pagina en dispositivos
+        de diferente tamaño, por ejemplo en un celular o en una tablet. El valor
+        <strong>width=device-width, initial-scale=1.0</strong> hace que la pagina se ajuste al
+        ancho de la pantalla del dispositivo y empiece con un zoom del 100%. Sin esto la pagina
+        se veria muy pequeña o descuadrada en el celular.
+    </p>
+
+    <br><a href="./../index.html">Volver al incio</a>
+</body>
+
+</html>
